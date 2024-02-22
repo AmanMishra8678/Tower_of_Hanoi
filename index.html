@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tower of Hanoi by Aman kumar Mishra</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Tower of Hanoi</h1>
+    <div class="container">
+      <div class="first-panel panels">
+        <div class="box box-f" data-length="6"></div>
+        <div class="box box-e" data-length="5"></div>
+        <div class="box box-d" data-length="4"></div>
+        <div class="box box-c" data-length="3"></div>
+        <div class="box box-b" data-length="2"></div>
+        <div class="box box-a" data-length="1"></div>
+      </div>
+      <div class="second-panel panels"></div>
+      <div class="third-panel panels"></div>
+    </div>
+
+    <div class="win-screen"></div>
+    <div class="mobile-instructions">
+      <u>Instructions</u>
+      <div class="instructions-dropdown toggle-visibility">
+        <p>
+          Your goal is to move all the blocks into the last column. Move the
+          blocks by clicking on a block and then clicking on the column you want
+          to place it in. Only one block can be moved at a time. You can only
+          move the top block of any column.
+          <span>You may not place a block onto one smaller than itself.</span>
+        </p>
+      </div>
+    </div>
+    <div class="button-div">
+      <div class="move-counter mobile-move-counter">0</div>
+      <button type="button" class="easymode">Easy</button>
+      <button type="button" class="normalmode">Normal</button>
+      <button type="button" class="hardmode">Hard</button>
+      <button type="button" class="resetbutton">Reset</button>
+      <button type="button" class="testbutton">Cheat</button>
+      <div class="move-counter normal-move-counter">0</div>
+    </div>
+    <p class="normal-instructions">
+      Instructions: Your goal is to move all the blocks into the last column.
+      Move the blocks by clicking on a block and then clicking on the column you
+      want to place it in. Only one block can be moved at a time. You can only
+      move the top block of any column.
+      <span>You may not place a block onto one smaller than itself.</span>
+    </p>
+    <p>created by Aman kumar Mishra, 2024</p>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
